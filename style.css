@@ -10,6 +10,25 @@
   font-family: fontBold;
   src: url("/assets/djr-font/FormaDJRDeck-Bold-Testing.woff");
 }
+.container{
+   max-width: calc(100vw - 5%) !important;
+}
+/* div.scrollmenu {
+   background-color: #333;
+   overflow: auto;
+   white-space: nowrap;
+ }
+ 
+
+div .scrollmenu a {
+   display: inline-block;
+   color: white;
+   text-align: center;
+   padding: 14px;
+   margin-right: 100px;
+   text-decoration: none;
+ } */
+
 .container {
   font-family: fontRegular;
 }
@@ -49,6 +68,10 @@
 .navbar-color {
   background-color: #ffff;
   height: 100px;
+  width: 100%;
+}
+.bg-drop{
+   background-color: #f8f7f7;
 }
 .nav-link {
   padding-top: 0px !important;
@@ -66,8 +89,12 @@
 /* navbar css end */
 
 /* header banner start */
-#carousel {
+/* #carousel {
   min-height: calc(100vh - 100px) !important;
+} */
+
+.carousel-box {
+   min-height: calc(80vh - 100px) !important;;
 }
 
 .img-fluid {
@@ -87,6 +114,11 @@
   margin-left: -130px;
 }
 
+.indicators-arrows{
+   min-height: 20vh;
+   width: 100% !important;
+}
+
 .carousel-indicators button {
   border: 2px solid #ea4722 !important;
   background-color: #ea4722 !important;
@@ -96,6 +128,7 @@
 }
 .carousel-indicators {
   position: initial !important;
+  max-width: 100% !important;
   margin-right: 0 !important;
   margin-left: 0 !important;
   margin-bottom: 0 !important;
@@ -110,9 +143,9 @@
 .fa-angle-right {
   font-size: 25px !important;
   padding-left: 23px;
-  padding-right: 23px;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-right: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 .fa-angle-left:hover,
 .fa-angle-right:hover {
