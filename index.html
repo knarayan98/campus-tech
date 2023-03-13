@@ -61,8 +61,8 @@
     <header class="position-relative">
       <!-- navbar start -->
       <!--  -->
-      <div class=" navbar-color">
-        <div class="container">
+      <div class="navbar-color">
+        <div class="container-fluid">
           <nav class="navbar navbar-expand-lg sticky-top">
             <div class="container-fluid justify-content-between">
               <a class="navbar-brand me-0" href="#">
@@ -131,7 +131,7 @@
           data-bs-ride="carousel"
         >
           <!-- carousel body -->
-          <div>
+          <div class="w-100 mx-auto">
             <div class="carousel-inner">
               <!-- carousel item 1 -->
               <div class="carousel-item active">
@@ -233,10 +233,7 @@
                       <span class="text-red">comparative analysis</span> made
                       available
                     </h1>
-                    <h1 class="text-bold">
-                      A <span class="text-red">power-packed solution</span> to
-                      streamline all educational and institutional processes.
-                    </h1>
+
                     <p class="py-lg-3 py-2 custom-font">
                       Get live reports on data added for multiple
                       accreditations, AI-based alerts for tracking of tasks
@@ -250,7 +247,7 @@
                     class="col-lg-6 d-flex justify-content-lg-end justify-content-center"
                   >
                     <img
-                      class="img-fluid"
+                      class="img-fluid-header"
                       src="/assets/banner/header4.png"
                       alt=""
                     />
@@ -259,39 +256,42 @@
               </div>
             </div>
             <!-- carousel indicator -->
-            <div class="indicators-arrows d-flex align-items-center">
-              <div class="d-flex justify-content-between align-items-center">
-                <div
-                  class="carousel-indicators justify-content-start align-items-center align-content-center"
-                >
-                  <button
-                    type="button"
-                    data-bs-target="#carousel"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carousel"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carousel"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carousel"
-                    data-bs-slide-to="3"
-                    aria-label="Slide 4"
-                  ></button>
-                </div>
-                <!-- carousel arrow button-->
+            <!-- <div class="indicators-arrows d-flex align-items-center"> -->
+            <div
+              class="d-flex justify-content-between indicators-arrows align-items-center"
+            >
+              <div
+                class="carousel-indicators justify-content-start align-items-center align-content-center"
+              >
+                <button
+                  type="button"
+                  data-bs-target="#carousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+              </div>
+              <!-- carousel arrow button-->
+              <div>
                 <div class="d-flex arrow-buttons">
                   <button
                     class="carousel-control-prev opacity-100 rounded-circle"
@@ -314,6 +314,7 @@
                 </div>
               </div>
             </div>
+            <!-- </div> -->
             <div
               class="banner-bottom-border position-absolute right-0 bottom-0"
             ></div>
@@ -330,109 +331,96 @@
 
     <!-- learn more section start -->
     <!--  -->
-    <section class="container">
-      <h1 class="text-bold py-5">
-        Learn more about<span class="text-red">what we solve</span>
+    <section class="mb-5 pb-5">
+      <h1 class="text-bold py-5 container">
+        Learn more about<span class="text-red"> what we solve</span>
       </h1>
-      <!-- oul carousel -->
-      <div class="d-flex align-items-center responsive p-lg-4 p-0 mb-lg-4">
-        <div
-          class="border-0 d-flex justify-content-center align-items-center px-3"
-        >
-          <div>
+
+      <div class="d-flex align-items-center overflow-custom p-3 mb-5">
+        <div class="border-0 d-flex justify-content-center align-items-center">
+          <div class="scroll-card-width p-5">
             <img
               src="/assets/slick-slider/slider1.png"
               class="img-fluid pb-4"
               alt="..."
             />
-            <h4 class="text-bold text-red slick-header">
+            <h5 class="text-bold text-red slick-header">
               Accreditation & Compliance
-            </h4>
+            </h5>
             <p class="py-2 learn-more-custom-height">
               Bring real-time monitoring for all users’ accreditation
               requirements for continuous quality improvement
             </p>
-            <button class="btn border-3 btn-outline-dark rounded-pill">
+            <button
+              class="btn border-3 btn-outline-dark hover-green-btn rounded-pill"
+            >
               Learn More
             </button>
           </div>
         </div>
-        <div
-          class="border-0 d-flex justify-content-center align-items-center px-3"
-        >
-          <div>
+        <div class="border-0 d-flex justify-content-center align-items-center">
+          <div class="scroll-card-width p-5">
             <img
               src="/assets/slick-slider/slider1.png"
               class="img-fluid pb-4"
               alt="..."
             />
-            <h4 class="text-bold text-red slick-header">
+            <h5 class="text-bold text-red slick-header">
               Accreditation & Compliance
-            </h4>
+            </h5>
             <p class="py-2 learn-more-custom-height">
               Bring real-time monitoring for all users’ accreditation
               requirements for continuous quality improvement
             </p>
-            <button class="btn border-3 btn-outline-dark rounded-pill">
+            <button
+              class="btn border-3 btn-outline-dark hover-green-btn rounded-pill"
+            >
               Learn More
             </button>
           </div>
         </div>
-        <div
-          class="border-0 d-flex justify-content-center align-items-center px-3"
-        >
-          <div>
+        <div class="border-0 d-flex justify-content-center align-items-center">
+          <div class="scroll-card-width p-5">
             <img
               src="/assets/slick-slider/slider2.png"
               class="img-fluid pb-4"
               alt="..."
             />
-            <h4 class="text-bold text-red slick-header">ILMS</h4>
+            <h5 class="text-bold text-red slick-header">ILMS</h5>
             <p class="py-2 learn-more-custom-height">
               Customise the learning system by giving users a unified platform
               for all academic needs with easy-to-use technology
             </p>
-            <button class="btn border-3 btn-outline-dark rounded-pill">
+            <button
+              class="btn border-3 btn-outline-dark hover-green-btn rounded-pill"
+            >
               Learn More
             </button>
           </div>
         </div>
 
-        <div
-          class="border-0 d-flex justify-content-center align-items-center px-3"
-        >
-          <div>
+        <div class="border-0 d-flex justify-content-center align-items-center">
+          <div class="scroll-card-width p-5">
             <img
               src="/assets/slick-slider/slider3.png"
               class="img-fluid pb-4"
               alt="..."
             />
-            <h4 class="text-bold text-red slick-header">
+            <h5 class="text-bold text-red slick-header">
               Exam Management System
-            </h4>
+            </h5>
             <p class="py-2 learn-more-custom-height">
               Streamline the examination process with Interactive Examinations,
               Live Proctoring, and Exam Evaluation modules
             </p>
-            <button class="btn border-3 btn-outline-dark rounded-pill">
+            <button
+              class="btn border-3 btn-outline-dark hover-green-btn rounded-pill"
+            >
               Learn More
             </button>
           </div>
         </div>
       </div>
-
-      <!-- 
-      <div class="prev"><i class="fa fa-chevron-left"></i></div>
-
-      <div class="next"><i class="fa fa-chevron-right"></i></div> -->
-
-      <div class="text-center py-5">
-        <button class="btn border-3 btn-outline-dark rounded-pill">
-          Learn More
-        </button>
-      </div>
-
-      <!-- owl-carousel end -->
     </section>
     <!--  -->
     <!-- learn more section end -->
@@ -447,9 +435,9 @@
           alt=""
         />
       </div>
-      <div class="container">
+      <div class="container mx-auto">
         <div class="row g-4 gx-lg-5 gx-md-3 align-items-center py-5">
-          <div class="col-lg-4 me-lg-5">
+          <div class="col-lg-4 me-lg-3">
             <h1 class="text-bold pb-4">
               Why your educational<span class="text-red">
                 institution needs Campus Tech</span
@@ -508,7 +496,7 @@
 
     <!-- trust us section start -->
     <!--  -->
-    <section class="container py-5 my-5">
+    <section class="container pt-5 mt-5">
       <div class="row">
         <div class="col-lg-4">
           <h1 class="text-bold pb-4">
@@ -544,41 +532,50 @@
     <!-- marque section start -->
     <!--  -->
     <section>
-      <div class="d-flex align-items-center responsive p-lg-4 p-0 mb-lg-4">
+      <div class="d-flex overflow-hidden align-items-center responsive">
         <div
-          class="border-0 d-flex justify-content-center align-items-center px-3"
+          class="border-0 d-flex slick-single justify-content-center align-items-center"
         >
           <img
             src="/assets/slick-slider/slick1.png"
-            class="img-fluid pb-4"
+            class="img-fluid-slick"
             alt="..."
           />
         </div>
         <div
-          class="border-0 d-flex justify-content-center align-items-center px-3"
+          class="border-0 d-flex slick-single justify-content-center align-items-center"
         >
           <img
             src="/assets/slick-slider/slick2.png"
-            class="img-fluid pb-4"
+            class="img-fluid"
             alt="..."
           />
         </div>
         <div
-          class="border-0 d-flex justify-content-center align-items-center px-3"
+          class="border-0 d-flex slick-single justify-content-center align-items-center"
         >
           <img
             src="/assets/slick-slider/slick3.png"
-            class="img-fluid pb-4"
+            class="img-fluid"
             alt="..."
           />
         </div>
 
         <div
-          class="border-0 d-flex justify-content-center align-items-center px-3"
+          class="border-0 d-flex slick-single justify-content-center align-items-center"
         >
           <img
-            src="/assets/slick-slider/slick3.png"
-            class="img-fluid pb-4"
+            src="/assets/slick-slider/slick4.png"
+            class="img-fluid"
+            alt="..."
+          />
+        </div>
+        <div
+          class="border-0 d-flex slick-single justify-content-center align-items-center"
+        >
+          <img
+            src="/assets/slick-slider/slick5.png"
+            class="img-fluid"
             alt="..."
           />
         </div>
@@ -594,25 +591,18 @@
     <!-- happy student start -->
     <!--  -->
 
-    <section class="pt-5 mt-3 happy-student">
+    <section class="pt-5 mt-3">
       <div class="d-lg-flex justify-content-between align-items-center">
-        <div class="container row pe-0 me-0">
-          <div class="container-fluid pe-0 me-0 col-lg-10">
-            <div class="col-lg-7">
-              <h1 class="text-bold pb-4">
-                Ready to give your
-                <span class="text-red"> institution an upgrade? </span>
-              </h1>
-              <button class="btn btn-green-white rounded-pill">
-                Contract Us
-              </button>
-            </div>
-          </div>
+        <div class="margin-left">
+          <h1 class="text-bold pb-4">
+            Ready to give your
+            <span class="text-red"> institution an upgrade? </span>
+          </h1>
+          <button class="btn btn-green-white rounded-pill">Contract Us</button>
         </div>
 
-        <div class="d-flex justify-content-end col-lg-6">
+        <div class="d-flex col-lg-8 justify-content-end z-index-1">
           <img class="bottom-img" src="/assets/bottom.png" alt="" />
-          <!-- <div class="image-overlap position-absolute"></div> -->
         </div>
       </div>
     </section>
@@ -658,7 +648,7 @@
         </div>
         <div class="d-flex justify-content-between align-items-center">
           <p>© 2022, Kahan Technologies Pvt. Ltd.</p>
-          <p>Designed by Grapdes</p>
+          <p class="grapdes-design">Designed by Grapdes</p>
         </div>
       </div>
     </footer>
@@ -696,17 +686,18 @@
         dots: false,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 300,
-        speed: 300,
-        slidesToShow: 3,
-        prevArrow: $(".prev"),
-        nextArrow: $(".next"),
+        autoplaySpeed: 0,
+        speed: 5000,
+        cssEase: "linear",
+        pauseOnFocus: false,
+        pauseOnHover: false,
+        slidesToShow: 4,
         slidesToScroll: 1,
         responsive: [
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 3,
+              slidesToShow: 4,
               slidesToScroll: 1,
               infinite: true,
             },
@@ -714,14 +705,14 @@
           {
             breakpoint: 800,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 3,
               slidesToScroll: 1,
             },
           },
           {
             breakpoint: 580,
             settings: {
-              slidesToShow: 1,
+              slidesToShow: 2,
               slidesToScroll: 1,
             },
           },
