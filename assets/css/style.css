@@ -35,6 +35,7 @@
   color: #30a981;
 }
 .text-bold {
+  font-size: calc(35px + 0.9vw);
   font-family: fontBold;
 }
 
