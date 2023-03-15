@@ -34,8 +34,11 @@
 .text-green {
   color: #30a981;
 }
-.text-bold {
+h1 {
   font-size: calc(35px + 0.9vw);
+}
+.text-bold {
+
   font-family: fontBold;
 }
 
