@@ -41,7 +41,9 @@ h1 {
 
   font-family: fontBold;
 }
-
+h5{
+  font-size: calc(18px + 0.3vw);
+}
 .btn-green-white {
   background-color: #30a981;
   color: #ffff;
